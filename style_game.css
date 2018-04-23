@@ -1,0 +1,199 @@
+#game {
+    position: absolute;
+    width : 1000px; height: 100%;
+}
+
+#frame {
+    position: absolute;
+    top: 0px; left: 0px;
+    width: 600px; height: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#player {
+    position: absolute;
+    width: 80px; height: 134px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#sky {
+    position: absolute;
+    width: 600px; height: 100%;
+    background-image: url('src/img/background.png');
+    overflow: hidden;
+}
+
+#play {
+    position: absolute;
+    width: 150px; height: 150px; left: 100px; top: 40%;
+    z-index: 2;
+    background-image: url('src/img/play-150.png');
+}
+
+#youwin {
+    position: absolute;
+    width: 150px; height: 150px; left: 200px; top: 40%;
+    z-index: 3;
+    background-image: url('src/img/you-win.png');
+}
+
+#lostlife1 {
+    position: absolute;
+    width: 300px; height: 300px; top: 250px; left: 150px;
+    margin: auto;
+    background-image: url('src/img/explosion3.png');
+    z-index: 3;
+    display: none;
+}
+
+#lostlife2 {
+    position: absolute;
+    width: 300px; height: 300px; top: 250px; left: 150px;
+    margin: auto;
+    background-image: url('src/img/explosion2.png');
+    z-index: 3;
+    display: none;
+}
+
+#lostlife3 {
+    position: absolute;
+    width: 300px; height: 300px; top: 250px; left: 150px;
+    margin: auto;
+    background-image: url('src/img/explosion1.png');
+    z-index: 3;
+    display: none;
+}
+
+#gameover {
+    position: absolute;
+    width: 150px; height: 150px; left: 200px; top: 40%;
+    z-index: 3;
+    background-image: url('src/img/game-over.png');
+}
+
+#replay {
+    position: absolute;
+    width: 150px; height: 150px; left: 200px; top: 40%;
+    z-index: 3;
+    background-image: url('src/img/replay.png');
+}
+
+#cv {
+    position: absolute;
+    width: 150px; height: 150px; left: 300px; top: 40%;
+    z-index:3;
+}
+
+#balloonsbutton {
+    position: absolute;
+    width: 120px; height: 63px;
+    left: 5px; top: 92%; 
+    z-index: 3;
+    background-image: url('src/img/balloons-button-120.png');
+}
+
+#skillsbutton {
+    position: absolute;
+    width: 300px; height: 63px;
+    left: 295px; top: 92%;
+    z-index: 3;
+    background-image: url('src/img/skills-button.png');
+}
+
+#skillsbutton > div {
+    position: absolute;
+    width: 34px; height: 38px;
+}
+
+#html5 {
+    top: 15px; left: 26px;
+    background-image: url('src/img/skills/html5.png');
+    display: none;
+}
+
+#css3 {
+    top: 15px; left: 70px;
+    background-image: url('src/img/skills/css3.png');
+    display: none;
+}
+
+#js {
+    top: 15px; left: 114px;
+    background-image: url('src/img/skills/js.png');
+    display: none;
+}
+
+#angular {
+    top: 15px; left: 158px;
+    background-image: url('src/img/skills/angular.png');
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#node {
+    top: 15px; left: 202px;
+    background-image: url('src/img/skills/node.png');
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#mongo {
+    top: 15px; left: 236px;
+    background-image: url('src/img/skills/mongo.png');
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#star1, #star2, #star3 {
+    position: absolute;
+    width: 20px; height: 20px; top: 30px;
+    background-image: url('src/img/star-20.png');
+}
+
+#star1 {
+    left: 30px;
+}
+
+#star2 {
+    left: 50px;
+}
+
+#star3 {
+    left: 70px;
+}
+
+.sprite {
+    position: absolute;
+    margin: auto;
+}
+
+.airplane {
+    position: absolute;
+    width: 300px; height: 91px; left: 800px;
+    z-index: 2;
+    background-image: url('src/img/airplane-yellow-300.png');
+}
+
+.paperplane {
+    position: absolute;
+    width: 100px; height: 62px; left: 800px;
+    z-index: 2;
+    background-image: url('src/img/paperplane-red-100.png');
+}
+
+.skill {
+    position: absolute;
+    width: 34px; height: 38px;
+    z-index: 3;
+    background-repeat: no-repeat;
+}
+
+.drone {
+    position: absolute;
+    width: 150px; height: 42px; left: -200px;
+    z-index: 2;
+    background-image: url('src/img/sprite-drone-150x42.png');
+    overflow: hidden;
+}
